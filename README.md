@@ -1,6 +1,6 @@
-##Setting up Frontend - HalloPay Sacco
+# Setting up Frontend - HalloPay Sacco
 
-##Let's get started!
+## Let's get started!
 
 1.Ensure you have
 	npm installed - goto  to download the installer for your OS.
