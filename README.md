@@ -15,9 +15,9 @@ Note that on Linux distributions you'll need to install the Ruby Development pac
 	 npm install -g bower
 	 ```
 	 
-	 ```
+	 
 	 npm install -g grunt-cli
-	 ```
+	 
 If this fails with npm WARN checkPermissions Missing write access to /usr/local/lib and npm ERR! code EACCES because you are not running npm with sudo as root (which you rightfully really shouldn't!) then use npm config set prefix ~ once before doing npm install. Note that in that case bower and grunt will be installed into ./bin/bower instead of /usr/local/bin, and so you need to prefix it in the usages below.
 
 1.Next pull the runtime and build time dependencies by running bower, npm, and gem commands on the project root folder:
@@ -43,7 +43,9 @@ https://stackoverflow.com/questions/34588/how-do-i-change-the-number-of-open-fil
  ```Waiting...Warning: EMFILE, too many open files```
 ​
 You can use these credentials to log in:
-``` Username: mifos
- Password: password
- ```
+``` Username: mifos ```
+
+
+``` Password: password ```
+ 
 You are done.
