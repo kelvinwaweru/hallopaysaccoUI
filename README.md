@@ -1,4 +1,4 @@
-#Setting up Frontend - HalloPay Sacco
+##Setting up Frontend - HalloPay Sacco
 
 ##Let's get started!
 
