@@ -49,10 +49,10 @@ module.exports = function(grunt) {
      // The actual grunt server settings
     connect: {
         options: {
-            port:  9002,
-            hostname: 'localhost',
+            port:  80,
+            hostname: 'admin.hallopaysacco.com',
             livereload: 35729,
-            open:'http://<%= connect.options.hostname %>:<%= connect.options.port %>?baseApiUrl=https://demo.mifos.io'
+            open:'http://<%= connect.options.hostname %>:<%= connect.options.port %>?baseApiUrl=https://localhost:8443&tenantIdentifier=default'
         },
         livereload: {
             options: {
