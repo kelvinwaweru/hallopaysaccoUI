@@ -52,7 +52,7 @@ module.exports = function(grunt) {
             port:  9002,
             hostname: 'admin.hallopaysacco.com',
             livereload: 35729,
-            open:'http://<%= connect.options.hostname %>:<%= connect.options.port %>?baseApiUrl=https://admin.hallopaysacco.com:8443&tenantIdentifier=default'
+            open:'http://<%= connect.options.hostname %>:<%= connect.options.port %>?baseApiUrl=https://localhost:8443&tenantIdentifier=default'
         },
         livereload: {
             options: {
